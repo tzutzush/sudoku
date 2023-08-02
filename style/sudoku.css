@@ -1,0 +1,98 @@
+body{
+    font-family: 'Oswald', sans-serif;
+    display: flex;
+    flex-direction: column;
+    gap: 36px;
+}
+
+.board {
+    width: 450px;
+    height: 450px;
+
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    box-shadow: 0px 0px 5px 5px #e6e6e6;
+}
+
+.timer-section {
+    width: 450px;
+    height: 60px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 18px;
+}
+
+.timer{
+    font-size: 38px;
+    font-weight: 600;
+}
+
+.number-keys{
+    width: 450px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;    
+}
+
+.tile {
+    width: 48px;
+    height: 48px;
+    border:  1px solid #cccccc;
+
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tile-side-border{
+    border-right: 1px solid black;
+}
+.tile-bottom-border{
+    border-bottom: 1px solid black;
+}
+
+.number-key{
+    width: 45px;
+    height: 45px;
+    border:  2px solid #cccccc;
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin-right: 1px;
+    border-radius: 3px;
+    
+}
+
+.number-key.selected {
+    background-color: beige;
+}
+
+.immutable {
+    background-color: rgb(242, 242, 242);
+}
+
+.wrong{
+    background-color: rgb(255, 112, 112);
+}
+
+.help{
+    width: 450px;
+    margin: 0 auto;
+    display: flex;
+    gap: 12px;
+}
+
+button{
+    font-family: 'Oswald', sans-serif;
+    font-size: 18px;
+    border-radius: 5px;
+    background-color: #fff;
+}

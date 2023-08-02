@@ -1,0 +1,22 @@
+body {
+    font-family: 'Oswald', sans-serif;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.leader-board {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.current-time{
+    font-weight: bold;
+    background-color: blue;
+}

@@ -1,0 +1,39 @@
+/* Tints and shades
+#333333
+#4d4d4d
+#808080  */
+
+body{
+    font-family: 'Oswald', sans-serif;
+}
+
+.start-screen {
+    height: 450px;
+    width: 450px;
+    margin: 0 auto;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0px 0px 5px 5px #e6e6e6;
+}
+
+.title {
+
+    font-weight: 700;
+    font-size: 72px;
+    color: #333333;
+}
+
+.button {
+
+    font-weight: 500;
+    font-size: 36px;
+    text-decoration: none;
+    color: #808080;
+}
+
+.button:hover{
+    color: #4d4d4d;
+}
